@@ -16,7 +16,7 @@ MySQL
 JAVA , 
 
 ### GIT
-https://github.com/nuriel99/Mail_Delivery_System
+https://github.com/nuriel99/Cost_Manager_Web_ServerSide
 
 ### Youtube
 https://youtu.be/JDsarlm36Ko
