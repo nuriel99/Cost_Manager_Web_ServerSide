@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+		"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="il.ac.hit.model.Item" table="ITEMS">
+		<id name="incrementalValue" type="int" column="INCREMENTALVALUE" >
+			<generator class="increment"/>
+		</id>
+
+		<property name="id">
+			<column name="ID"/>
+		</property>
+		<property name="userId">
+			<column name="USERID"/>
+		</property>
+		<property name="cost">
+			<column name="COST"/>
+		</property>
+		<property name="date">
+			<column name="DATE"/>
+		</property>
+		<property name="type">
+			<column name="TYPE"/>
+		</property>
+	</class>
+
+	<class name="il.ac.hit.model.User" table="USERS">
+		<id name="userId" type="int" column="USERID" >
+			<generator class="assigned"/>
+		</id>
+
+		<property name="userName">
+			<column name="USERNAME"/>
+		</property>
+		<property name="lastName">
+			<column name="LASTNAME"/>
+		</property>
+		<property name="password">
+			<column name="PASSWORD"/>
+		</property>
+	</class>
+
+</hibernate-mapping>
