@@ -13,7 +13,7 @@ then he gives him the packages. <br>
 MySQL
 
 ### Technology 
-JAVA , 
+JAVA , CSS, JAVASCRIPT, HIBERNATE,HTML, SERVLET, JSP
 
 ### GIT
 https://github.com/nuriel99/Cost_Manager_Web_ServerSide
