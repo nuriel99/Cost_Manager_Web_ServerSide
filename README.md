@@ -1,12 +1,15 @@
 # Cost Manager Web Server Side
 
 ### Introduction
-This application is for a management package delivery system. <br>
-It divided into 3 parts: <br>
-1. Client side- the client request to pick up packages according to a specific branch and get line number when he arrives at the branch. <br>
-2. Employee side- the employee gets line numbers and according to the numbers he can automatically see all the packages of the client. <br>
-then he gives him the packages. <br>
-3. Report- the employee can get statistical information of the packages. <br>
+Web Application with Hibernate, cost manager.  <br>
+the app contains: <br>
+
+1. Allowing the user to login/logout. <br>
+
+2. Allowing the user to add an expense in one of the available expense types (food, clothes, car, housing…).<br>
+
+3. Allowing the user to get a detailed monthly report for every month he selects.<br>
+
 
 ### Database 
 
