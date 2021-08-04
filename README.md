@@ -16,7 +16,7 @@ the app contains: <br>
 MySQL
 
 ### Technology 
-JAVA , CSS, JAVASCRIPT, HIBERNATE,HTML, SERVLET, JSP
+JAVA, CSS, HIBERNATE,SERVLET, JSP
 
 ### GIT
 https://github.com/nuriel99/Cost_Manager_Web_ServerSide
